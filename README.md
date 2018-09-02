@@ -6,10 +6,11 @@
   ![alt](https://i.imgur.com/JWCBF6Q.png)
 
 ## Features
-  Show navbar list based on the json feed here: http://femme.nextmedia.ma/api/menus/get_menu/?menu_id=7
-  Show recent posts based on the json feed here: http://femme.nextmedia.ma/api/get_recent_posts
-  Load more recent posts button (next page ex: http://femme.nextmedia.ma/api/get_recent_posts/?page=2)
-  Show single page based on the json feed here: http://femme.nextmedia.ma/api/get_post/?id=178
+  * Show navbar list based on the json feed here: http://femme.nextmedia.ma/api/menus/get_menu/?menu_id=7
+  * Show recent posts based on the json feed here: http://femme.nextmedia.ma/api/get_recent_posts
+  * Load more recent posts button (next page ex: http://femme.nextmedia.ma/api/get_recent_posts/?page=2)
+  * Show single page based on the json feed here: http://femme.nextmedia.ma/api/get_post/?id=178
+  
   Swipe between articles (you may just swipe into 10 of the recent posts
 
 ## Technologies used
@@ -19,6 +20,7 @@
   * `Sass`: Preprocessor scripting language that is interpreted or compiled into `css`
 
 ## How to install
+#### You need to have `node.js` install in your machine.
 
 ``` bash
 # install dependencies
