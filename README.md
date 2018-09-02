@@ -20,7 +20,7 @@
   * `Sass`: Preprocessor scripting language that is interpreted or compiled into `css`
 
 ## How to install
-#### You need to have `node.js` install in your machine.
+##### You need to have `node.js` install in your machine, before proceeding.
 
 ``` bash
 # install dependencies
