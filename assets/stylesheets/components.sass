@@ -1,0 +1,60 @@
+/* Navbar style */
+.navbar
+  background-color: $nav-main_color
+  // padding: .6rem
+  width: 100%
+  height: 6%
+  min-height: 6%
+  display: flex
+  flex-direction: row
+  align-items: center
+  justify-content: space-evenly
+
+/* post */
+.post
+  min-width: 70%
+  max-width: 100%
+  padding: 0 9%
+  margin-bottom: 9%
+  .image
+    min-width: 100%
+    max-width: 100%
+  .title
+    font-size: calc(14px + (40 - 14) * ((100vw - 300px) / (1600 - 300)))
+    color: lighten(#000, 20%)
+  .tag
+    position: relative
+    margin: -6% -.4%
+    margin-bottom: 1%
+  .post-content
+    line-height: 2.2
+
+
+/* button */
+.button-space
+  position: relative
+  .button
+    position: relative
+    display: block
+    border: 1px solid $light-gray_color
+    padding: 2.6% 3%
+    background: transparent
+    cursor: pointer
+    margin: 0 auto
+    i
+      color: $light-gray_color
+      font-size: 1.2rem
+
+/* logo */
+.logo-area
+  background-color: $nav-main_color
+  border-bottom: 1px solid $nav_color
+  width: 100%
+  height: 6%
+  display: flex
+  justify-content: center
+  align-items: center
+  .logo
+    min-width: 10%
+    max-width: 40%
+

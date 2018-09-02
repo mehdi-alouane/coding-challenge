@@ -14,6 +14,13 @@ module.exports = {
     ]
   },
   /*
+  ** Css
+  */
+  css: [
+    { src: '~/assets/stylesheets/style.sass', lang: 'sass' },
+    { src: './node_modules/font-awesome/scss/font-awesome.scss', lang: 'scss' }
+  ],
+  /*
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
@@ -21,6 +28,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    vendor: ['~/plugins/Api.js'],
     /*
     ** Run ESLint on save
     */
