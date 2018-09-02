@@ -52,7 +52,7 @@ export default {
   },
   methods: {
     async loadMorePost() {
-      console.log('clicked')
+      this.$store.dispatch('getRecentPosts', { id: ++this.id })
     }
   }
 }
