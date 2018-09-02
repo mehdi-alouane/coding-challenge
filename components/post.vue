@@ -1,7 +1,7 @@
 <template>
   <div class="post">
     <div class="post-content">
-      <router-link :to="{ path: `/posts/${post.id}` }">
+      <router-link :to="{ path: `/post/${post.id}` }">
         <img
           :src="post.thumbnail_images.medium_large.url"
           :alt="post.title"
